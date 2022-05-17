@@ -1,0 +1,72 @@
+body {
+    background-color: #1e1e1e; 
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-content: center;
+}
+
+
+body>.hidden {
+    display: none;
+}
+
+.uploadScoreForm {
+    box-sizing: border-box;
+    background-color: #27293a;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    color: rgb(228, 233, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-container {
+    height: 50px;
+    width: 100%;
+}
+
+input[type="text"] {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 100px;
+}
+
+button {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    text-align: center;
+    width: 33%;
+}
+  
+button:active {
+    background-color: #06b;
+}
+
+h1 {
+    color: white;
+}
