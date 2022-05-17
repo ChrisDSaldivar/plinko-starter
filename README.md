@@ -16,6 +16,8 @@ Open `package.json` and change the port number used in the `start-dev` script to
 
 I've added `browser-sync` to this project. If you recall from class that `nodemon` will automatically restart your server when you edit your code. Well, `browser-sync` will reload the browser too when save edits to your code. This will save you from having to remember to refresh every time you want to test something.
 
+I've included starter code and you'll only be editing `plinko.js`.
+
 ## Final directory structure
 ```
 .
